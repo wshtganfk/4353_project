@@ -1,0 +1,3 @@
+In zip file, using xampp to import crzdb.sql to mysql database. And creat a new database call crzdb.
+Place crzproj under htdocs.
+Make sure using php 5.6.
