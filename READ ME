@@ -1,3 +1,12 @@
 In zip file, using xampp to import crzdb.sql to mysql database. And creat a new database call crzdb.
 Place crzproj under htdocs.
 Make sure using php 5.6.
+Under xampp, go to apache, conf, extra, and open httpd-vhosts.conf file. Add this below.
+
+<VirtualHost *:80>
+    ServerAdmin localhost
+    DocumentRoot "D:/xampp/htdocs/crzproj/public"(with file direction)
+    ServerName localhost
+    #ErrorLog "logs/dummy-host2.example.com-error.log"
+    #CustomLog "logs/dummy-host2.example.com-access.log" common
+</VirtualHost>
